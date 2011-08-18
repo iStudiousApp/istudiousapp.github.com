@@ -4,6 +4,10 @@
     <meta charset='utf-8'>
     <title>iStudious for iPad and iPhone</title>
     <link href='/stylesheets/style.css' media='screen' rel='stylesheet' type='text/css'>
+    <link href='/stylesheets/facebox.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='/javascript/jquery.js' type='text/javascript'></script>
+    <script src='/javascript/facebox.js' type='text/javascript'></script>
+    <script src='/javascript/application.js' type='text/javascript'></script>
     <meta content='nanoc 3.2.0a3' name='generator'>
     <meta content="Take notes, draw sketches, scribble reminders, email a handwritten message to friends or family. Pen 'N Paper's handwriting is fast and responsive. It works great with fingers or a stylus. Available now for the iPad and iPhone." name='description'>
     <meta content='handwriting, iPhone, iPad, stylus, sketch, draw, drawing, notes, note taking, sticky notes, write, jot' name='keywords'>
@@ -49,7 +53,100 @@
         </div>
       </div>
       <div id='content'>
-        <h1 class='center'>iStudious - Note Taking w/ Integrated Flashcards Support</h1>
+        <h1 class='center'>iStudious - Note Taking w/ Integrated Flashcards</h1>
+        <h2 class='center'>FAQS</h2>
+        <div id='faq'>
+          <ul>
+            <li>
+              <a href='#newNotebook' rel='facebox'>How do I create a new Notebook?</a>
+            </li>
+            <li>
+              <a href='#newTextNote' rel='facebox'>How do I add a new Text note?</a>
+            </li>
+            <li>
+              <a href='#newSketchNote' rel='facebox'>How do I add a new Sketch note?</a>
+            </li>
+            <li>
+              <a href='#resizeNoteBox' rel='facebox'>How do I resize a note box?</a>
+            </li>
+            <li>
+              <a href='#addNewPage' rel='facebox'>How do I add a new Page?</a>
+            </li>
+            <li>
+              <a href='#switchPage' rel='facebox'>How do I switch between Pages in my Section?</a>
+            </li>
+            <li>
+              <a href='#previousNotes' rel='facebox'>How do I get back to my previous notes?</a>
+            </li>
+            <li>
+              <a href='#newFlashcard' rel='facebox'>How do I add a new Flashcard?</a>
+            </li>
+            <li>
+              <a href='#deleteNote' rel='facebox'>How do I delete a Text or Sketch note?</a>
+            </li>
+            <li>
+              <a href='#deleteNotebook' rel='facebox'>How do I delete a notebook?</a>
+            </li>
+            <li>
+              <a href='#changeFontSizeColor' rel='facebox'>How can I change my font/size/color?</a>
+            </li>
+            <li>
+              <a href='#moreQuestions' rel='facebox'>I still have a question that is not answered here.  What should I do?</a>
+            </li>
+          </ul>
+        </div>
+        <div class='hide' id='newNotebook'>
+          <h3>How do I create a new Notebook?</h3>
+          Double tap anywhere on the Desk screen and the new Notebook modal window will appear.  Enter the class name and number, then tap done to save the Notebook to the desk.
+        </div>
+        <div class='hide' id='newTextNote'>
+          <h3>How do I add a new Text note?</h3>
+          Simply double anywhere on a notebook with ONE finger and a new text box will appear.  You can select the handle in the bottom right hand of the corner to resize the box.
+        </div>
+        <div class='hide' id='newSketchNote'>
+          <h3>How do I add a new Sketch note?</h3>
+          Simply double anywhere on a notebook with TWO fingers and a new text box will appear.  You can select the handle in the corner of the note box and drag it out to resize the box.
+        </div>
+        <div class='hide' id='resizeNoteBox'>
+          <h3>How do I resize a note box?</h3>
+          Select the handle in the bottom right hand of the corner of the note box and drag it out to resize the box.
+        </div>
+        <div class='hide' id='addNewPage'>
+          <h3>How do I add a new Page?</h3>
+          Tap the plus button on the bottom right hand corner of the notebook page and you will be presented with a new page.  If you are in a section for a previous day's class, then you are presented with the option to either add a page to the current section you are on, or for the current day's section.  There is no limit to the number of pages you can add!
+        </div>
+        <div class='hide' id='switchPage'>
+          <h3>How do I switch between Pages in my Section?</h3>
+          Simply tap the right or left arrow to move between pages.
+        </div>
+        <div class='hide' id='previousNotes'>
+          <h3>How do I get back to my previous notes?</h3>
+          Tap on the icon on the bottom left hand of the notebook paper to see a list of all of the days that you've taken notes.  Simply tap on the section that you want to go back to and you will be brought back to those notes.
+        </div>
+        <div class='hide' id='newFlashcard'>
+          <h3>How do I add a new Flashcard?</h3>
+          <p>There are 2 ways to add flashcards.<br />
+          1) Highlight any text and choose the Flashcard option.  This will automatically create a new flashcard with the selected text on the back of the flashcard.  Just turn the    flashcard to the front to type in what you want to appear on the front of the flashcard.</p>
+          <p>2) Tap on the Flashcards button in the top right hand corner of the screen when you&#8217;re in a notebook.  This will present the flashcard window.  Tap the plus button and choose whether you want to add a new Text Flashcard or a new Sketch Flashcard.  Once your new flashcard is created, double tap on the flashcard to either start typing or drawing.</p>
+        </div>
+        <div class='hide' id='deleteNote'>
+          <h3>How do I delete a Text or Sketch note?</h3>
+          Double tap on the note to bring it into focus.  Then tap the Trash can icon in the bottom left to delete the note box.
+        </div>
+        <div class='hide' id='deleteNotebook'>
+          <h3>How do I delete a notebook?</h3>
+          At this time, there is no way to delete a notebook.  We are working on that feature, as well as the ability to archive old notebooks so they don't appear on the desk anymore, but you can still reference them for historical purposes.
+        </div>
+        <div class='hide' id='changeFontSizeColor'>
+          <h3>How can I change my font/size/color?</h3>
+          At this time, you can not edit the text attributes or sketch attributes.  That will be coming in our first update which will be out shortly!
+        </div>
+        <div class='hide' id='moreQuestions'>
+          <h3>I still have a question that is not answered here.  What should I do?</h3>
+          Please email
+          <a href='mailto:support@mad-swan.com'>support@mad-swan.com</a>
+          and you will get back to you as soon as we can!
+        </div>
       </div>
       <div class='center' id='footer'>
         <br>
