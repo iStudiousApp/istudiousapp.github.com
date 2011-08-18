@@ -295,31 +295,31 @@ body.one-col #header, body.one-col #footer {
   margin: 0 -80px 1.5em 80px;
 }
 
-/* line 1, content/stylesheets/partials/_buy_now.scss */
-#iPad_buy_now {
+/* line 1, content/stylesheets/partials/_products.scss */
+#redirect_iStudious {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 190px;
 }
 /* line 147, /Users/cswanberg/.rvm/gems/ruby-1.9.2-p136/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html #iPad_buy_now {
+* html #redirect_iStudious {
   overflow-x: hidden;
 }
 
-/* line 5, content/stylesheets/partials/_buy_now.scss */
-#iPhone_buy_now {
+/* line 5, content/stylesheets/partials/_products.scss */
+#redirect_Flashcards {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 190px;
 }
 /* line 147, /Users/cswanberg/.rvm/gems/ruby-1.9.2-p136/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html #iPhone_buy_now {
+* html #redirect_Flashcards {
   overflow-x: hidden;
 }
 
-/* line 8, content/stylesheets/partials/_buy_now.scss */
+/* line 8, content/stylesheets/partials/_products.scss */
 .iPhone_buffer {
   display: inline;
   float: left;
@@ -331,16 +331,16 @@ body.one-col #header, body.one-col #footer {
   overflow-x: hidden;
 }
 
-/* line 12, content/stylesheets/partials/_buy_now.scss */
-.push_iPad {
+/* line 12, content/stylesheets/partials/_products.scss */
+.push_iStudious {
   display: inline;
   float: left;
   position: relative;
   margin: 0 -200px 1.5em 200px;
 }
 
-/* line 16, content/stylesheets/partials/_buy_now.scss */
-.push_iPhone {
+/* line 16, content/stylesheets/partials/_products.scss */
+.push_Flashcards {
   display: inline;
   float: left;
   position: relative;
