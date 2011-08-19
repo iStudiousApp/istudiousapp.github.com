@@ -337,6 +337,46 @@ body.one-col #header, body.one-col #footer {
   margin: 0 -280px 1.5em 280px;
 }
 
+/* line 20, content/stylesheets/partials/_products.scss */
+#watch_demo {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 190px;
+}
+/* line 147, /Users/cswanberg/.rvm/gems/ruby-1.9.2-p136/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #watch_demo {
+  overflow-x: hidden;
+}
+
+/* line 24, content/stylesheets/partials/_products.scss */
+#buy_now {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 190px;
+}
+/* line 147, /Users/cswanberg/.rvm/gems/ruby-1.9.2-p136/gems/compass-0.11.1/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html #buy_now {
+  overflow-x: hidden;
+}
+
+/* line 28, content/stylesheets/partials/_products.scss */
+.push_demo {
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 -200px 1.5em 200px;
+}
+
+/* line 32, content/stylesheets/partials/_products.scss */
+.push_buy_now {
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 -240px 1.5em 240px;
+}
+
 /* line 33, content/stylesheets/style.scss */
 body.bp {
   line-height: 1.5;
