@@ -245,6 +245,16 @@ body.one-col #header, body.one-col #footer {
   padding: 178px 45px 30px 150px;
 }
 
+/* line 10, content/stylesheets/partials/_faq.scss */
+#faqFlashcards {
+  float: center;
+  background-image: url("images/Flashcard@2x.png");
+  background-repeat: no-repeat;
+  height: 512px;
+  font-size: 29px;
+  padding: 85px 45px 0px 0px;
+}
+
 /* line 1, content/stylesheets/partials/_three_col.scss */
 #col {
   display: inline;
